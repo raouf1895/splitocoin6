@@ -6,7 +6,7 @@ import { WalletConnectModalSign } from "@walletconnect/modal-sign-html";
 const connectButton = document.getElementById("connect-button");
 
 // 1. Define constants
-const projectId = import.meta.env.VITE_PROJECT_ID;
+const projectId = "69e4593fefd274d4bbad0a7c0ef0995b";
 if (!projectId) {
   throw new Error("You need to provide VITE_PROJECT_ID env variable");
 }
